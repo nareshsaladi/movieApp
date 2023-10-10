@@ -1,0 +1,91 @@
+.search-section-bg-container {
+  background-color: #181818;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.render-search-section-container {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input-bg-container {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  max-width: 270px;
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  align-self: center;
+}
+.search-input {
+  color: #fff;
+  background-color: transparent;
+  max-width: 240px;
+  position: relative;
+  z-index: 1;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search-icon {
+  color: #fff;
+  font-size: 20px;
+  align-items: flex-end;
+}
+
+.search-list-container {
+  list-style-type: none;
+  padding: 0%;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media all and (min-width: 768px) {
+  .search-list-container {
+    padding: 50px 100px 100px 100px;
+  }
+}
+
+.no-data-image {
+  height: 300px;
+  width: 300px;
+}
+/* not find view */
+.not-find-view-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.not-find-img {
+  height: 300px;
+  width: 300px;
+}
+.not-find-msg {
+  color: #fff;
+  font-family: 'HK Grotesk';
+  font-size: 20px;
+  font-weight: 200;
+}

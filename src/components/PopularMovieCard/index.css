@@ -1,0 +1,9 @@
+.popular-movie-card {
+  margin: 15px;
+}
+
+.popular-movie-img {
+  width: 150;
+  height: 200px;
+  border-radius: 10px;
+}

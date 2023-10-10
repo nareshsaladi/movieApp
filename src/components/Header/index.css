@@ -1,0 +1,137 @@
+.nav-container {
+  height: 70px;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media all and (min-width: 768px) {
+  .nav-container {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.movies-logo-img {
+  width: 80px;
+  height: 20px;
+}
+@media all and (min-width: 768px) {
+  .movies-logo-img {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+.nav-items-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-popular-list-container {
+  padding: 0%;
+  padding-left: 40px;
+  width: 150px;
+  list-style-type: none;
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .home-popular-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.home {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 300;
+}
+.popular {
+  color: #fff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.search-about-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.search-icon {
+  color: #fff;
+  font-size: 20px;
+  align-items: flex-end;
+}
+
+.about-img {
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .about-img {
+    display: block;
+  }
+}
+.link-style {
+  text-decoration: none;
+  color: #fff;
+}
+.mobile-view-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.mobile-view-img {
+  height: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+@media all and (min-width: 768px) {
+  .mobile-view-img {
+    display: none;
+  }
+}
+.home-popular-about-list-container-mobile-view {
+  padding: 0%;
+  padding-left: 30px;
+  max-width: 250px;
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media all and (min-width: 768px) {
+  .home-popular-about-list-container-mobile-view {
+    display: none;
+  }
+}
+
+.about-mobile-view {
+  color: red;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 15px;
+}

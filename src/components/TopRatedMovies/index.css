@@ -1,0 +1,15 @@
+.top-rated-movies-slider-container {
+  background-color: #131313;
+  padding-bottom: 45px;
+}
+.top-rated-heading {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

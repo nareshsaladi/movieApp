@@ -1,0 +1,9 @@
+.search-result {
+  margin: 15px;
+}
+
+.search-img {
+  height: 250px;
+  width: 170px;
+  border-radius: 10px;
+}

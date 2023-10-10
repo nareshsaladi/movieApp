@@ -1,0 +1,9 @@
+.genres-list {
+  flex-shrink: 0;
+}
+.genre-name {
+  color: #fff;
+  font-family: 'HK Grotesk';
+  font-weight: 300;
+  font-size: 15px;
+}
